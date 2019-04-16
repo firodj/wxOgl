@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<resource>
+	<object class="wxDialog" name="semi_circle">
+				<pos>10,40</pos>
+				<size>365,405</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>SemiCircle</title>
+			<object class="wxStaticText" name="statictext7">
+				<pos>14,163</pos>
+				<size>64,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Segment Id</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl8">
+				<pos>108,162</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext9">
+				<pos>14,208</pos>
+				<size>79,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Channels</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl10">
+				<pos>108,206</pos>
+				<size>30,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext11">
+				<pos>14,245</pos>
+				<size>54,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Attributes</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl12">
+				<pos>108,245</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxRadioBox" name="radiobox1">
+				<pos>12,13</pos>
+				<size>236,44</size>
+				<style>wxRA_HORIZONTAL|wxRA_SPECIFY_COLS</style>
+				<label>Scope</label>
+				<content>
+					<item>Process</item>
+					<item>Application</item>
+					<item>Project</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox3">
+				<pos>174,68</pos>
+				<size>72,82</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Resource</label>
+				<content>
+					<item>Heap</item>
+					<item>Segment</item>
+					<item>Any</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox4">
+				<pos>12,69</pos>
+				<size>81,63</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Volatility</label>
+				<content>
+					<item>Permanent</item>
+					<item>Temporary</item>
+				</content>
+				<dimension>2</dimension>
+			</object>
+			<object class="wxStaticText" name="statictext1">
+				<pos>154,208</pos>
+				<size>68,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Events</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl2">
+				<pos>230,205</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+	</object>
+
+	<object class="wxPanel" name="general_shape_properties_dialog">
+				<pos>10,40</pos>
+				<size>400,400</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+
+			<object class="wxTextCtrl" name="textctrl3">
+				<pos>8,31</pos>
+				<size>203,24</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="message4">
+				<pos>8,11</pos>
+				<size>41,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Name:</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl1">
+				<pos>8,101</pos>
+				<size>204,100</size>
+				<style>wxTE_MULTILINE</style>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext2">
+				<pos>9,79</pos>
+				<size>66,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Description:</label>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="diagram_settings_dialog">
+				<pos>10,40</pos>
+				<size>400,300</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Diagram settings</title>
+			<object class="wxChoice" name="choice4">
+				<pos>13,31</pos>
+				<size>85,21</size>
+				<content>
+					<item>None</item>
+					<item>Invisible</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+					<item>Dotted</item>
+				</content>
+			</object>
+			<object class="wxStaticText" name="statictext5">
+				<pos>13,11</pos>
+				<size>56,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Grid style:</label>
+			</object>
+			<object class="wxStaticText" name="statictext6">
+				<pos>137,11</pos>
+				<size>72,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Grid spacing:</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl7">
+				<pos>136,31</pos>
+				<size>66,21</size>
+				<value></value>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="general_settings_dialog">
+				<pos>10,40</pos>
+				<size>375,325</size>
+				<style>wxDEFAULT_DIALOG_STYLE|wxCAPTION|wxSYSTEM_MENU</style>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title></title>
+			<object class="wxStaticText" name="statictext3">
+				<pos>12,15</pos>
+				<size>70,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Project path:</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl4">
+				<pos>12,34</pos>
+				<size>183,24</size>
+				<value></value>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="wide_rectangle">
+				<pos>10,40</pos>
+				<size>355,405</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Wide Rectangle</title>
+			<object class="wxStaticText" name="statictext7">
+				<pos>13,184</pos>
+				<size>64,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Segment Id</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl8">
+				<pos>13,184</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext9">
+				<pos>13,184</pos>
+				<size>79,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Channels</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl10">
+				<pos>13,184</pos>
+				<size>30,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext11">
+				<pos>13,184</pos>
+				<size>54,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Attributes</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl12">
+				<pos>13,184</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxRadioBox" name="radiobox1">
+				<pos>13,11</pos>
+				<size>313,46</size>
+				<style>wxRA_HORIZONTAL|wxRA_SPECIFY_COLS</style>
+				<label>Scope</label>
+				<content>
+					<item>Process</item>
+					<item>Application</item>
+					<item>Project</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox3">
+				<pos>166,70</pos>
+				<size>72,82</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Resource</label>
+				<content>
+					<item>Heap</item>
+					<item>Segment</item>
+					<item>Any</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox4">
+				<pos>14,73</pos>
+				<size>81,63</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Volatility</label>
+				<content>
+					<item>Permanent</item>
+					<item>Temporary</item>
+				</content>
+				<dimension>2</dimension>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="thin_rectangle">
+				<pos>10,40</pos>
+				<size>361,405</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Thin Rectangle</title>
+			<object class="wxStaticText" name="statictext7">
+				<pos>12,169</pos>
+				<size>64,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Segment Id</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl8">
+				<pos>106,168</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext9">
+				<pos>12,204</pos>
+				<size>79,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Channels</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl10">
+				<pos>106,202</pos>
+				<size>30,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext11">
+				<pos>12,267</pos>
+				<size>54,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Attributes</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl12">
+				<pos>106,265</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxRadioBox" name="radiobox1">
+				<pos>13,16</pos>
+				<size>236,44</size>
+				<style>wxRA_HORIZONTAL|wxRA_SPECIFY_COLS</style>
+				<label>Scope</label>
+				<content>
+					<item>Process</item>
+					<item>Application</item>
+					<item>Project</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox3">
+				<pos>176,73</pos>
+				<size>72,82</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Resource</label>
+				<content>
+					<item>Heap</item>
+					<item>Segment</item>
+					<item>Any</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox4">
+				<pos>14,73</pos>
+				<size>81,63</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Volatility</label>
+				<content>
+					<item>Permanent</item>
+					<item>Temporary</item>
+				</content>
+				<dimension>2</dimension>
+			</object>
+			<object class="wxStaticText" name="statictext1">
+				<pos>156,205</pos>
+				<size>68,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Events</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl2">
+				<pos>228,202</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext3">
+				<pos>12,234</pos>
+				<size>62,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Fields</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl4">
+				<pos>106,234</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="circle">
+				<pos>10,40</pos>
+				<size>361,405</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Circle</title>
+			<object class="wxStaticText" name="statictext7">
+				<pos>12,169</pos>
+				<size>64,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Segment Id</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl8">
+				<pos>106,168</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext9">
+				<pos>12,204</pos>
+				<size>79,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Channels</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl10">
+				<pos>106,202</pos>
+				<size>30,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext11">
+				<pos>12,267</pos>
+				<size>54,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Attributes</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl12">
+				<pos>106,265</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxRadioBox" name="radiobox1">
+				<pos>13,16</pos>
+				<size>236,44</size>
+				<style>wxRA_HORIZONTAL|wxRA_SPECIFY_COLS</style>
+				<label>Scope</label>
+				<content>
+					<item>Process</item>
+					<item>Application</item>
+					<item>Project</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox3">
+				<pos>176,73</pos>
+				<size>72,82</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Resource</label>
+				<content>
+					<item>Heap</item>
+					<item>Segment</item>
+					<item>Any</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox4">
+				<pos>14,73</pos>
+				<size>81,63</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Volatility</label>
+				<content>
+					<item>Permanent</item>
+					<item>Temporary</item>
+				</content>
+				<dimension>2</dimension>
+			</object>
+			<object class="wxStaticText" name="statictext1">
+				<pos>156,205</pos>
+				<size>68,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Events</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl2">
+				<pos>228,202</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext3">
+				<pos>12,234</pos>
+				<size>62,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Fields</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl4">
+				<pos>106,234</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="triangle">
+				<pos>10,40</pos>
+				<size>362,405</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Triangle</title>
+			<object class="wxStaticText" name="statictext7">
+				<pos>16,170</pos>
+				<size>64,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Segment Id</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl8">
+				<pos>110,169</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxStaticText" name="statictext9">
+				<pos>16,213</pos>
+				<size>79,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Channels</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl10">
+				<pos>110,213</pos>
+				<size>30,19</size>
+				<value>1</value>
+			</object>
+			<object class="wxStaticText" name="statictext11">
+				<pos>16,252</pos>
+				<size>54,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Attributes</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl12">
+				<pos>110,252</pos>
+				<size>120,19</size>
+				<value></value>
+			</object>
+			<object class="wxRadioBox" name="radiobox1">
+				<pos>14,16</pos>
+				<size>236,44</size>
+				<style>wxRA_HORIZONTAL|wxRA_SPECIFY_COLS</style>
+				<label>Scope</label>
+				<content>
+					<item>Process</item>
+					<item>Application</item>
+					<item>Project</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox3">
+				<pos>178,75</pos>
+				<size>72,82</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Resource</label>
+				<content>
+					<item>Heap</item>
+					<item>Segment</item>
+					<item>Any</item>
+				</content>
+				<dimension>3</dimension>
+			</object>
+			<object class="wxRadioBox" name="radiobox4">
+				<pos>15,75</pos>
+				<size>81,63</size>
+				<style>wxRA_SPECIFY_ROWS|wxRA_VERTICAL</style>
+				<label>Volatility</label>
+				<content>
+					<item>Permanent</item>
+					<item>Temporary</item>
+				</content>
+				<dimension>2</dimension>
+			</object>
+			<object class="wxStaticText" name="statictext1">
+				<pos>156,215</pos>
+				<size>68,13</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Num Events</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl2">
+				<pos>227,213</pos>
+				<size>40,19</size>
+				<value>1</value>
+			</object>
+	</object>
+
+	<object class="wxDialog" name="shape_label_dialog">
+				<pos>10,10d</pos>
+				<size>190,60d</size>
+				<style>wxRAISED_BORDER|wxDEFAULT_DIALOG_STYLE|wxCAPTION|wxRESIZE_BORDER|wxRESIZE_BORDER|wxSYSTEM_MENU</style>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<title>Edit Shape Label</title>
+			<object class="wxStaticText" name="statictext2">
+				<pos>8,6d</pos>
+				<size>100,6d</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Please enter a label for this shape.</label>
+			</object>
+			<object class="wxTextCtrl" name="textctrl4">
+				<pos>8,18d</pos>
+				<size>168,11d</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<value></value>
+			</object>
+			<object class="wxButton" name="wxID_OK">
+				<pos>100,37d</pos>
+				<size>36,13d</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>OK</label>
+			</object>
+			<object class="wxButton" name="wxID_CANCEL">
+				<pos>140,37d</pos>
+				<size>36,13d</size>
+			<font>
+				<size>8</size>
+				<face>swiss</face>
+			</font>
+				<label>Cancel</label>
+			</object>
+	</object>
+
+</resource>
